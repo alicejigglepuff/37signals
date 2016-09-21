@@ -1,0 +1,374 @@
+/**Sitewide CSS**/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Crimson Text', sans-serif;
+	text-align: center;
+}
+a {
+	color: #336699;
+	text-decoration: none;
+}
+.sections, 
+.pagebr{
+	display: block;
+	margin: 30px auto;
+	width: 825px;
+	clear: both;
+}
+h1{
+	color: #232323;
+	font-size: 48px;
+	line-height: 52px;
+	letter-spacing: -1px;
+	margin: 20px 0;
+	text-align: center;
+}
+h4{
+	font-weight: 500;
+	font-size: 20px;	
+	line-height: 30px;
+	margin: 10px 0;
+	color: #222222;
+}
+.sections p{
+	text-align: left;
+	color: gray;
+}
+/**navigation**/
+nav{
+	font-family: sans-serif;
+	height: 48px;
+	width: 100%;
+}
+
+nav ul{
+	float: right;
+	margin: 12px 18px;
+	padding: 10px 30px;
+}
+
+nav ul li{
+	color: #369369;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 5px;
+	padding: 5px;
+}
+nav ul li{
+	color: #369369;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #18AFE0;
+}
+#signin{
+	color: #18AFE0;
+}
+#signin:hover{
+	color: #369369;
+}
+
+
+/**header**/
+.headerpic{
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+	float: left;
+	margin: 25px 0 0 58px;
+	padding: 20px 30px;	
+	width: 17%;
+}
+
+.headerpic a{
+	color: navy;
+	font-size: 16px;
+	text-decoration: underline;
+}
+#headertitle{
+	font-size: 21px;
+	color: #336699;
+	font-weight: bold;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+
+.headerpic .red{
+	margin: 10px 0;
+	font-size: 14px;
+	color: #C00C00;
+	font-weight: bold;
+	text-align: center;
+}
+.headerpic .gray{
+	color: #222222;
+	font-size: 14px;
+	line-height: 21px;
+	margin: 5px 0;
+	text-align: center;
+}
+
+.pagebr{
+	margin: 0px auto;
+	width: 30%;
+}
+
+
+/**customers**/
+.meet{
+	left: 80px;
+	position:  absolute;
+	top: 700px;
+}
+.meet a {
+	background: url('../img/img-customers.png');
+	display: block;
+	height: 104px;
+	text-indent: -1000px;
+	width: 143px;
+}
+
+.meet a:hover {
+	background-position: 0 100%;
+}
+
+.meet p {
+	color: #336699;
+	cursor: pointer;
+	font-size: 14px;
+	text-align: center;
+}
+
+.meet p:hover {
+	color: #6699CC;
+	text-decoration: underline;
+}
+.arrow-left {
+	height: 36px;
+	position: relative;
+	top: -35px;
+	width: 69px;
+}
+
+
+#wrap2 p{
+	color: #656565;
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+#wrap2 img{
+	float: right;
+}
+
+#companylogo img{
+	width: 100%;
+}
+
+.left .number, 
+.right .number{
+	clear: left;
+	color: #CCCCCC;
+	float: left;
+	font-family: 'Crimson Text', sans-serif;
+	font-size: 58px;
+	line-height: normal;
+	margin: -10px 15px 0 0;
+}
+.left .red, .right .red{
+	color: #CC0000;
+	font-weight: bold;
+	margin: 5px 0;
+	text-align: left;
+}
+.left .gray, .right .gray{
+	font-size: 12px;	
+	line-height: 16px;
+	text-align: left;
+}
+#rightcolumn{
+	width: 46%;
+	float: right;
+}
+#leftcolumn{
+	display: inline-block;
+	width: 46%;
+}
+
+#reworkpic{
+	float: left;
+	width: 35%;
+	height: 250px;
+}
+#reworkpic1{
+	width: 90%;
+}
+.citation{
+	color: #888;
+	font-weight: normal;
+	font-family: "CrimsonRomanItalic", serif;
+	font-style: italic;
+	font-size: 22px;
+	margin-bottom: 10px;
+	margin-top: 35px;
+}
+.citename{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	margin-left: 400px;
+	font-color: black;
+}
+
+.left1 h1,
+.right1 h1{
+	border-bottom: 1px solid #E8E8E8;
+	color: #C00;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin: 5px 0;
+}
+.left1 h2,
+.right1 h2{
+	color: black;
+	font-size: 25px;
+}
+.left1 p,
+.right1 p{
+	color: gray;
+	font-size: 16px;
+	text-align: center;
+}
+
+#leftcolumn1, #rightcolumn1,
+#leftbox, #rightbox{
+	display: inline-block;
+	vertical-align: top;
+}
+#leftcolumn1{
+	width: 42%;
+	float: left;
+}
+#rightcolumn1{
+	width: 42%;
+	float: right;
+}
+#leftbox{
+	width: 40%;
+}
+
+footer{
+	height: 100px;
+	text-align: center;
+	font-family: 'Lucida Grande', sans-serif;
+	line-height: 1.5em;
+	margin: 30px auto;
+	text-align: center;
+}
+footer h3{
+	font-size: 14px;
+	color: #CC0000;
+}
+footer ul li{
+	color: white;
+	font-size: 12px;
+	padding: 5px 0;
+}
+footer a{
+	text-decoration: none;
+}
+footer p{
+	font-size: 10px;
+	color: #999999;	
+	margin-top: 50px;
+}
+
+/*******************************
+     media
+ ******************************/
+ @media (max-width: 1000px){
+ 	.meet{
+		display: none;
+	}
+	.pagebr{
+		margin: 0px auto;
+		width: 40%;
+		margin-left: 50%;
+	}
+ }
+ @media (max-width: 570px){
+ 	nav{
+ 		margin-left: 70%;
+ 		height: auto;
+ 		text-align: center;
+ 	}
+ 	nav ul{
+ 		margin: 0px auto;
+ 		width: 100%;
+ 		padding-right: 0px;
+ 	}
+
+	nav ul li{
+		color: #369369;
+		display: block;
+		font-size: 20px;		
+	}
+	.sections h1,
+	.sections h4{
+		width: 80%;
+		height: auto;
+	}
+	.sections #wrap2 img{
+		display: none;
+	}
+	.sections #wrap2 p,
+	.sections h1,
+	.sections #companylogo{
+		margin: 0px auto;
+		width: 80%;
+	}
+	.sections #leftcolumn1,
+	.sections #rightcolumn1{
+		display:block;
+		margin: 0px auto;
+		width: 60%;
+		height: auto;
+		float: left;
+		margin-left: 20%;
+	}
+	.sections #leftcolumn1{
+		margin-top: 30px;
+	}
+	footer h3,
+	footer ul{
+		display: block;
+		margin: 0px auto;
+		width: 60%;
+		margin-left: 100%;
+	}
+ }
+ @media (max-width: 420px){
+ 	.headerpic{
+ 		display: block;
+ 		margin: 0 auto;
+ 		width: 80%;
+ 		height: auto;
+ 	}
+ 	.headerpic img{
+ 		display: block;
+ 		margin: 0 auto;
+ 		width: 50%;
+ 		height: auto;
+ 	}
+ 	.sections #leftbox,
+ 	.sections #rightbox{
+ 		display: block;
+ 		float: left;
+ 		margin: 0 auto;
+ 		width: 60%;
+ 		margin-left: 20%;
+ 	}
+ }
